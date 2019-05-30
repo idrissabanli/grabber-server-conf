@@ -25,9 +25,9 @@ sudo usermod -aG docker $(whoami)
 
 git clone https://idrisshabanli@bitbucket.org/labclients/utest_puppeteer.git
 
-cd utest_puppeteer/
+cd utest_puppeteer/ &&
 
-build-docker
+build-docker &&
 
 docker-compose logs -f
 
