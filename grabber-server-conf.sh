@@ -1,6 +1,6 @@
 #apt-get update
 #apt-get install git
-curl -LO https://raw.githubusercontent.com/munisisazade/docker-helper-commands/master/install.sh && bash install.sh
+#curl -LO https://raw.githubusercontent.com/munisisazade/docker-helper-commands/master/install.sh && bash install.sh
 # adduser buglance
 usermod -aG sudo buglance
 sudo su - buglance
