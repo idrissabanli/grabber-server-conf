@@ -27,7 +27,7 @@ git clone https://idrisshabanli@bitbucket.org/labclients/utest_puppeteer.git
 
 cd utest_puppeteer/ &&
 
-sudo build-docker &&
+sudo docker-compose up -d --build &&
 
 sudo docker-compose logs -f
 
